@@ -1,4 +1,4 @@
-import { React, useState } from 'react';
+import { useState } from 'react';
 import { Card } from '../components/card';
 import { ProjectDetailView } from './projectDetails'; // The component we adjusted earlier
 import { portfolioCardsData } from '../staticData/portfolioCards';
@@ -15,7 +15,7 @@ export const Project = () => {
             <div className="max-w-6xl mx-auto">
 
                 {/* Page Header */}
-                <div className="mb-10 text-center sm:text-left">
+                <div className="mb-10 text-center sm:text-center">
                     <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">
                         My Projects
                     </h1>
