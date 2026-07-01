@@ -4,6 +4,7 @@ import { Footer } from "./components/footer";
 import { Home } from "./pages/home";
 import { Project } from "./pages/project";
 import { Services } from "./pages/services";
+import { Contact } from './pages/contact';
 import { Technologies } from "./pages/technologies";
 import "./App.css";
 
@@ -13,6 +14,7 @@ const Landing = () => (
     <Home />
     <Project />
     <Services />
+    <Contact />
   </>
 );
 
