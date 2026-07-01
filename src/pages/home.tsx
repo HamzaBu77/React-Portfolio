@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 export const Home = () => {
     return (
         <>
-            <div className="flex flex-row items-center justify-center bg-slate-100 py-12 my-4 gap-10">
+            <div className="min-h-screen flex flex-row items-center justify-center bg-slate-100 py-12 my-4 gap-10">
                 <div className="relative px-6 pt-14 lg:px-8">
                     {/* Changed 'mx-auto' to 'ml-0' or just removed it to let it snap left. Max-w-3xl gives it breathing room */}
                     <div className="max-w-3xl py-24 sm:py-32 lg:py-40">
