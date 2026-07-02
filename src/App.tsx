@@ -4,8 +4,8 @@ import { Footer } from "./components/footer";
 import { Home } from "./pages/home";
 import { Project } from "./pages/project";
 import { Services } from "./pages/services";
-import { Contact } from './pages/contact';
-import { Technologies } from "./pages/technologies";
+import { Contact } from "./pages/contact";
+import { ServicesDetail } from "./pages/servicesDetails";
 import "./App.css";
 
 // The landing page: all your sections stacked together, same as before.
@@ -27,7 +27,9 @@ function App() {
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Landing />} />
-            <Route path="/technologies/:slug" element={<Technologies />} />
+            <Route path="/services" element={<ServicesDetail />} />
+            <Route path="/projects" element={<Project />} />
+            <Route path="/hire-me" element={<Contact />} />
           </Routes>
         </main>
 
